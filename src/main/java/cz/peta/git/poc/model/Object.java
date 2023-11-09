@@ -1,11 +1,12 @@
-package cz.peta.git.poc.api;
+package cz.peta.git.poc.model;
 
 import lombok.Data;
 
 import java.time.LocalDate;
 
 @Data
-public class ObjectApi {
+public class Object {
     String data;
     LocalDate date;
+
 }
